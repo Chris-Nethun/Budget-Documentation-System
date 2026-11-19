@@ -1,0 +1,55 @@
+{
+  "name": "budget-docs-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "desktop": "electron .",
+    "desktop:dev": "npm run build && electron .",
+    "dist:win": "npm run build && electron-builder --win nsis"
+  },
+  "dependencies": {
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "electron": "^39.2.7",
+    "electron-builder": "^26.0.12",
+    "vite": "^5.4.11"
+  },
+  "main": "electron/main.cjs",
+  "build": {
+    "appId": "com.budgetdocs.desktop",
+    "productName": "Budget Documentation System",
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "..",
+        "to": "budget-data",
+        "filter": [
+          "backend.py",
+          "budget_loader.py",
+          "desktop_api.py",
+          "budget.csv",
+          "budgets_extracted.json",
+          "VoucherTemplate.docx",
+          "CoverLetterTemplate.docx"
+        ]
+      }
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}

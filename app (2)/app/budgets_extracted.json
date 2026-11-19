@@ -1,0 +1,235 @@
+{
+    "main": [
+        {
+            "code": "B",
+            "name": "Direct Cost"
+        },
+        {
+            "code": "C",
+            "name": "CONTRIBUTION / INDIRECT (C=A-B)"
+        },
+        {
+            "code": "D",
+            "name": "OTHER COSTS"
+        },
+        {
+            "code": "E",
+            "name": "DEVELOPMENT"
+        }
+    ],
+    "sub": {
+        "B. Direct Cost": [
+            {
+                "code": "B1.1",
+                "name": "Resource Persons Payment 1",
+                "allocated": 360000
+            },
+            {
+                "code": "B1.2",
+                "name": "Staff 1 Payments",
+                "allocated": 270000
+            },
+            {
+                "code": "B1.3",
+                "name": "Staff 2 Payments",
+                "allocated": 90000
+            },
+            {
+                "code": "B1.4.1",
+                "name": "Meeting 1",
+                "allocated": 60000
+            },
+            {
+                "code": "B1.4.2",
+                "name": "Monitoring 1",
+                "allocated": 36000
+            },
+            {
+                "code": "B1.4.3",
+                "name": "Meeting 2",
+                "allocated": 30000
+            },
+            {
+                "code": "B1.4.4",
+                "name": "Meeting 3",
+                "allocated": 20000
+            },
+            {
+                "code": "B1.5",
+                "name": "Meeting 4",
+                "allocated": 25000
+            },
+            {
+                "code": "B1.6",
+                "name": "Industry Visit / Field Visit Related Payment",
+                "allocated": 90000
+            },
+            {
+                "code": "B2.1.1",
+                "name": "Resource Persons Payment 2",
+                "allocated": 12500
+            },
+            {
+                "code": "B2.1.2",
+                "name": "Presentation (10 presentations, 12 per panel)",
+                "allocated": 60000
+            },
+            {
+                "code": "B2.2.1",
+                "name": "Resource Persons Payment 3",
+                "allocated": 36000
+            },
+            {
+                "code": "B2.2.2",
+                "name": "Resource Persons Payment 4",
+                "allocated": 36000
+            },
+            {
+                "code": "B2.2.3",
+                "name": "Resource Persons Payment 5",
+                "allocated": 30000
+            },
+            {
+                "code": "B2.2.4",
+                "name": "Resource Persons Payment 6",
+                "allocated": 30000
+            },
+            {
+                "code": "B2.2.5",
+                "name": "Resource Persons Payment 7",
+                "allocated": 30000
+            },
+            {
+                "code": "B2.2.6",
+                "name": "Resource Persons Payment 8",
+                "allocated": 30000
+            },
+            {
+                "code": "B3.1",
+                "name": "Cost for interview board (5 members / 2 sessions)",
+                "allocated": 50000
+            },
+            {
+                "code": "B3.2",
+                "name": "Application processing",
+                "allocated": 25000
+            },
+            {
+                "code": "B3.3",
+                "name": "Planning Workshop",
+                "allocated": 30000
+            },
+            {
+                "code": "B3.4",
+                "name": "Supplies requisites",
+                "allocated": 40000
+            },
+            {
+                "code": "B3.5",
+                "name": "Refreshment",
+                "allocated": 20000
+            },
+            {
+                "code": "B3.6",
+                "name": "Equipment",
+                "allocated": 50000
+            },
+            {
+                "code": "B4",
+                "name": "Government Taxes (5% of A)",
+                "allocated": 250000
+            }
+        ],
+        "C. CONTRIBUTION / INDIRECT (C=A-B)": [
+            {
+                "code": "C",
+                "name": "CONTRIBUTION / INDIRECT (C=A-B)",
+                "allocated": 3289500
+            }
+        ],
+        "D. OTHER COSTS": [
+            {
+                "code": "D1.1",
+                "name": "Staff 2",
+                "allocated": 700000
+            },
+            {
+                "code": "D1.2.1",
+                "name": "Staff 3",
+                "allocated": 600000
+            },
+            {
+                "code": "D1.2.2",
+                "name": "Staff 4",
+                "allocated": 650000
+            },
+            {
+                "code": "D2.1.1",
+                "name": "Staff 5",
+                "allocated": 75000
+            },
+            {
+                "code": "D2.1.2",
+                "name": "Staff 6",
+                "allocated": 75000
+            },
+            {
+                "code": "D2.1.3",
+                "name": "Staff 7",
+                "allocated": 75000
+            },
+            {
+                "code": "D2.1.4",
+                "name": "Staff 8",
+                "allocated": 75000
+            }
+        ],
+        "E. DEVELOPMENT": [
+            {
+                "code": "E1",
+                "name": "Development Fund 1 - 5% of total income",
+                "allocated": 250000
+            },
+            {
+                "code": "E2",
+                "name": "Vote 1",
+                "allocated": 500000
+            },
+            {
+                "code": "E3",
+                "name": "Utilities 1 (water / electricity)",
+                "allocated": 100000
+            },
+            {
+                "code": "E4",
+                "name": "Utilities 2",
+                "allocated": 50000
+            },
+            {
+                "code": "E5",
+                "name": "Development Fund 2",
+                "allocated": 40000
+            },
+            {
+                "code": "E6",
+                "name": "Development Fund 3",
+                "allocated": 30000
+            },
+            {
+                "code": "E7",
+                "name": "Development Fund 4",
+                "allocated": 25000
+            },
+            {
+                "code": "E8",
+                "name": "Development Fund 5",
+                "allocated": 22250
+            },
+            {
+                "code": "E9",
+                "name": "Development Fund 6",
+                "allocated": 22250
+            }
+        ]
+    }
+}
